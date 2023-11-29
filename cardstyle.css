@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width:400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05)
+}
+.card-image{
+    width: 400px;
+    padding-bottom: 10px;
+}
+.card-text{
+    font-family: 'Sora', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    
+}
+.card-body{
+    font-family: 'Sora', sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.design{
+    background-color:#E6D6FC;
+    border-radius: 30%;
+    width:80px;
+    color: #883AE1;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-wrap: wrap;
+
+}
+.paddig{
+    padding-right: 10px;
+}
